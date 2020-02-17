@@ -1,0 +1,7 @@
+type Other {
+  how: String
+}
+
+extend type Query {
+  hooow: Other
+}

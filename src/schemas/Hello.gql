@@ -1,0 +1,15 @@
+#this is the first example
+
+type Hello {
+  "this is a comment"
+  id: String
+  name: String
+}
+
+extend type Query {
+  hello: Hello
+}
+
+extend type Mutation {
+  saySomting(name: String): Hello
+}
